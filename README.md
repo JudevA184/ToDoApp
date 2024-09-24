@@ -1,0 +1,1 @@
+The project demonstrates the developer env using tools like wsl-ubuntu,vscode,prettier,eslint and version controlling using git and github

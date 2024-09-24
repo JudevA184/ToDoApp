@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple To-Do Application</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+  <!-- Header -->
+  <div class="bg-blue-500 p-6 text-white text-center">
+    <h1 class="text-3xl font-bold">To-Do List</h1>
+    <p class="text-lg">Organize your tasks efficiently</p>
+  </div>
+
+  <!-- Main Section -->
+  <div class="container mx-auto my-10 max-w-lg">
+    
+    <!-- Input Form -->
+    <div class="bg-white shadow-md rounded-lg p-6">
+      <h2 class="text-xl font-bold mb-4 text-gray-700">Add a New Task</h2>
+      <div class="flex">
+        <input type="text" id="todo-input" placeholder="Enter your task" class="flex-grow p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <button id="add-btn" class="ml-2 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Add</button>
+      </div>
+    </div>
+
+    <!-- To-Do List -->
+    <div class="bg-white shadow-md rounded-lg mt-6 p-6">
+      <h2 class="text-xl font-bold mb-4 text-gray-700">Your Tasks</h2>
+      <ul id="todo-list" class="list-none space-y-2">
+        <!-- List Items Will Appear Here -->
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="text-center py-6 bg-blue-500 text-white">
+    <p>&copy; 2024 Your To-Do App. All rights reserved.</p>
+  </div>
+
+  <!-- Link External JavaScript -->
+  <script src="app.js"></script> <!-- Link to your JS file -->
+  
+</body>
+</html>
